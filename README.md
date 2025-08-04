@@ -11,7 +11,7 @@
 2. **Clone the Repository**:
    - Clone the project from the repository using:
      ```
-     git clone <repository-url>
+     https://github.com/Ritesh351/AutomationCICD_Amazon.git
      ```
    - Alternatively, download the ZIP file and extract it.
 
