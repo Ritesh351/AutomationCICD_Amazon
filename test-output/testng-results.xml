@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-04T17:59:34 IST" name="Suite" finished-at="2025-08-04T18:01:36 IST" duration-ms="121795">
+    <groups>
+    </groups>
+    <test started-at="2025-08-04T17:59:34 IST" name="Test" finished-at="2025-08-04T18:01:36 IST" duration-ms="121795">
+      <class name="MashreqAssignment.LoginPageTest01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T17:59:34 IST" name="setup" finished-at="2025-08-04T17:59:37 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T17:59:37 IST" name="startTest" finished-at="2025-08-04T17:59:39 IST" duration-ms="1620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.LoginPageTest01.LoginInValidMailId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginInValidMailId()[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T17:59:39 IST" name="LoginInValidMailId" description="Login with InValid Mail Id and correct password" finished-at="2025-08-04T17:59:51 IST" duration-ms="11814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInValidMailId -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T17:59:51 IST" name="attachScreenshot" finished-at="2025-08-04T17:59:52 IST" duration-ms="813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginInValidMailId status=SUCCESS method=LoginPageTest01.LoginInValidMailId()[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T17:59:52 IST" name="startTest" finished-at="2025-08-04T17:59:53 IST" duration-ms="959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.LoginPageTest01.LoginValidMailId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginValidMailId()[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T17:59:53 IST" name="LoginValidMailId" description="Login with Valid Mail Id" finished-at="2025-08-04T18:00:02 IST" duration-ms="9689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidMailId -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T18:00:02 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:02 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginValidMailId status=SUCCESS method=LoginPageTest01.LoginValidMailId()[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MashreqAssignment.LoginPageTest01@651aed93]" started-at="2025-08-04T18:00:02 IST" name="teardown" finished-at="2025-08-04T18:00:03 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MashreqAssignment.LoginPageTest01 -->
+      <class name="MashreqAssignment.AddToCartPageTest04">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MashreqAssignment.AddToCartPageTest04@4bd31064]" started-at="2025-08-04T18:00:57 IST" name="setup" finished-at="2025-08-04T18:01:01 IST" duration-ms="3810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.AddToCartPageTest04@4bd31064]" started-at="2025-08-04T18:01:01 IST" name="startTest" finished-at="2025-08-04T18:01:02 IST" duration-ms="1435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.AddToCartPageTest04.testAddProductToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testAddProductToCart()[pri:0, instance:MashreqAssignment.AddToCartPageTest04@4bd31064]" started-at="2025-08-04T18:01:02 IST" name="testAddProductToCart" finished-at="2025-08-04T18:01:33 IST" duration-ms="30681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.AddToCartPageTest04@4bd31064]" started-at="2025-08-04T18:01:33 IST" name="attachScreenshot" finished-at="2025-08-04T18:01:33 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=AddToCartPageTest04.testAddProductToCart()[pri:0, instance:MashreqAssignment.AddToCartPageTest04@4bd31064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MashreqAssignment.AddToCartPageTest04@4bd31064]" started-at="2025-08-04T18:01:33 IST" name="teardown" finished-at="2025-08-04T18:01:36 IST" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MashreqAssignment.AddToCartPageTest04 -->
+      <class name="MashreqAssignment.SearchResultPageTest02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:03 IST" name="setup" finished-at="2025-08-04T18:00:07 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:07 IST" name="startTest" finished-at="2025-08-04T18:00:08 IST" duration-ms="1307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.SearchResultPageTest02.searchInvalidProduct_shouldReturnResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="searchInvalidProduct_shouldReturnResults()[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:08 IST" name="searchInvalidProduct_shouldReturnResults" description="Search for invalid product and expect results (Expected to fail)" finished-at="2025-08-04T18:00:16 IST" duration-ms="8010" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Intentional Failure: Search returned no results when we expected results. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Intentional Failure: Search returned no results when we expected results. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at MashreqAssignment.SearchResultPageTest02.searchInvalidProduct_shouldReturnResults(SearchResultPageTest02.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInvalidProduct_shouldReturnResults -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:16 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:20 IST" duration-ms="3489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchInvalidProduct_shouldReturnResults status=FAILURE method=SearchResultPageTest02.searchInvalidProduct_shouldReturnResults()[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:20 IST" name="startTest" finished-at="2025-08-04T18:00:20 IST" duration-ms="323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.SearchResultPageTest02.verifySearchResultsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="verifySearchResultsDisplayed()[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:20 IST" name="verifySearchResultsDisplayed" description="Verify search results are displayed for given product" finished-at="2025-08-04T18:00:30 IST" duration-ms="10341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsDisplayed -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:30 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:30 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchResultsDisplayed status=SUCCESS method=SearchResultPageTest02.verifySearchResultsDisplayed()[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MashreqAssignment.SearchResultPageTest02@589da3f3]" started-at="2025-08-04T18:00:30 IST" name="teardown" finished-at="2025-08-04T18:00:31 IST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MashreqAssignment.SearchResultPageTest02 -->
+      <class name="MashreqAssignment.HomePageTest03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:31 IST" name="setup" finished-at="2025-08-04T18:00:35 IST" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:35 IST" name="startTest" finished-at="2025-08-04T18:00:37 IST" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.HomePageTest03.testAmazonLogoNavigation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testAmazonLogoNavigation()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:37 IST" name="testAmazonLogoNavigation" description="Verify clicking Amazon logo navigates to home" finished-at="2025-08-04T18:00:45 IST" duration-ms="8146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonLogoNavigation -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:45 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:45 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAmazonLogoNavigation status=SUCCESS method=HomePageTest03.testAmazonLogoNavigation()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:45 IST" name="startTest" finished-at="2025-08-04T18:00:46 IST" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.HomePageTest03.testClickNextSlide()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testClickNextSlide()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:46 IST" name="testClickNextSlide" description="Verify clicking Next Slide" finished-at="2025-08-04T18:00:46 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickNextSlide -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:46 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:46 IST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickNextSlide status=SUCCESS method=HomePageTest03.testClickNextSlide()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:46 IST" name="startTest" finished-at="2025-08-04T18:00:47 IST" duration-ms="967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.HomePageTest03.testNavBarLinksVisible() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testNavBarLinksVisible()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:47 IST" name="testNavBarLinksVisible" description="Verify NavBar links are visible" finished-at="2025-08-04T18:00:48 IST" duration-ms="519" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Link not displayed:  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Link not displayed:  expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at MashreqAssignment.HomePageTest03.testNavBarLinksVisible(HomePageTest03.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavBarLinksVisible -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:48 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:48 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavBarLinksVisible status=FAILURE method=HomePageTest03.testNavBarLinksVisible()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:48 IST" name="startTest" finished-at="2025-08-04T18:00:49 IST" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.HomePageTest03.testReturnOrdersClick()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testReturnOrdersClick()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:49 IST" name="testReturnOrdersClick" description="Verify Return Orders click navigates correctly" finished-at="2025-08-04T18:00:54 IST" duration-ms="4486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReturnOrdersClick -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:54 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:54 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReturnOrdersClick status=SUCCESS method=HomePageTest03.testReturnOrdersClick()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:54 IST" name="startTest" finished-at="2025-08-04T18:00:55 IST" duration-ms="929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MashreqAssignment.HomePageTest03.testSelectBooksFromDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testSelectBooksFromDropdown()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:55 IST" name="testSelectBooksFromDropdown" description="Verify selecting Books category from dropdown" finished-at="2025-08-04T18:00:55 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBooksFromDropdown -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:55 IST" name="attachScreenshot" finished-at="2025-08-04T18:00:55 IST" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectBooksFromDropdown status=SUCCESS method=HomePageTest03.testSelectBooksFromDropdown()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MashreqAssignment.HomePageTest03@39d76cb5]" started-at="2025-08-04T18:00:55 IST" name="teardown" finished-at="2025-08-04T18:00:57 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MashreqAssignment.HomePageTest03 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

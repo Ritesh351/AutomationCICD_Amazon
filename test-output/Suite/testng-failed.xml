@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MashreqAssignment.SearchResultPageTest02">
+        <methods>
+          <include name="teardown"/>
+          <include name="attachScreenshot"/>
+          <include name="searchInvalidProduct_shouldReturnResults"/>
+          <include name="setup"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- MashreqAssignment.SearchResultPageTest02 -->
+      <class name="MashreqAssignment.HomePageTest03">
+        <methods>
+          <include name="attachScreenshot"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="startTest"/>
+          <include name="testNavBarLinksVisible"/>
+        </methods>
+      </class> <!-- MashreqAssignment.HomePageTest03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
